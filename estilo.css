@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=VT323&display=swap');
+
+
+body {
+    background-color: rgb(6, 15, 51);
+    color: white;
+    font-family: "VT323", monospace;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    font-size: 1.5rem;
+}
+header {
+    border-bottom: 2px solid grey;
+    margin-top: 20px;
+}
+
+h2 {
+  color: orange;
+}
+
+.rounded-circle {
+    border: 20px dashed grey;
+}
+
+#nome-usuario {
+    font-weight: bold;
+    color: rgb(11, 147, 189);
+}
+
+.texto-ingles {
+    font-style: italic;
+    color: rgb(11, 147, 189);
+    font-weight: bold;
+
+}
+
+
+/*Deixando responsivo a imagem olá*/
+
+@media (max-width: 600px) {
+.img-ola {
+    width: 250px;
+    height: 250px;
+}
+}
+
